@@ -1,4 +1,12 @@
-# weather
+this application is designed to display the weather beautifully
+
+Demo - http://s916407m.beget.tech/
+
+## Used technologies
+- Vue.js
+- JavaScript
+- Axios
+- NPM
 
 ## Project setup
 ```
