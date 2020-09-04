@@ -39,9 +39,17 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 22px;
 }
 
 .background__background {
+  max-width: 1300px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+input {
   min-height: 45px;
   max-width: 1300px;
   width: 100%;
@@ -49,19 +57,11 @@ export default {
   border-radius: 10px;
   position: relative;
   margin: auto;
-}
-
-input {
-  position: absolute;
-  top: 50%;
-  left: 515px;
-  transform: translate(-50%, -50%);
-  background-color: transparent;
-  border: 1px solid transparent;
+  border: 0px solid black;
   font-size: 30px;
   color: white;
-  max-width: 1000px;
-  width: 100%;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 
 input:focus {

@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <!-- <h1 v-if="reject == 'Error: Request failed with status code 404'">нет такого города</h1> -->
-    
-      <video-bg :sources="[bgVideo + `.mp4`]" :key="render">
+      <video-bg :sources="[bgVideo + `.mp4`]" :key="render" class="videobg">
         <app-input v-on:myinput="value = $event" v-on:cleaninput="value = ''" :newmyinput="value"></app-input>
         <div class="weather" v-if="city == ''" style="font-size: 30px">Введите любой город</div>
         <div class="weather" v-else>
@@ -84,7 +82,7 @@ export default {
             this.icon == '13n' ? 'snow' :
             this.icon == '50d' ? 'fog' :
             this.icon == '50n' ? 'fog' :
-            this.icon == '11n' ? 'litning'  : 'def';
+            this.icon == '11n' ? 'litning'  : 'de';
     },
   },
 };
@@ -124,5 +122,9 @@ img {
   width: 80px;
   height: 80px;
   margin: 0 -15px;
+}
+
+#app {
+  display: block
 }
 </style>

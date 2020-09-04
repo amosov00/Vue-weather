@@ -1,13 +1,6 @@
 .DS_Store
 node_modules
 /dist
-/public/fog.mp4
-/public/Clear.mp4
-/public/def.mp4
-/public/snow.mp4
-/public/Rain.mp4
-/public/Clouds.mp4
-/public/pasmurn-sky.mp4
 
 
 # local env files
